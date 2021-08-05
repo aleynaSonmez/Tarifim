@@ -1,0 +1,6 @@
+framework module Pods_projeTarifim {
+  umbrella header "Pods-projeTarifim-umbrella.h"
+
+  export *
+  module * { export * }
+}

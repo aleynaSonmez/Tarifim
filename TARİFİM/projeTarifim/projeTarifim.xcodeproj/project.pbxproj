@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		546910A682699B37305F8276 /* Pods_projeTarifim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AFF766A3C8A83B7B03BF6A /* Pods_projeTarifim.framework */; };
+		AD5309A72615B20500FFB789 /* kullaniciAyarlariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5309A62615B20500FFB789 /* kullaniciAyarlariViewController.swift */; };
+		AD54DEDE2681970A00F4369D /* girisEkraniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD54DEDD2681970A00F4369D /* girisEkraniViewController.swift */; };
+		AD54E77B25FD8424008246CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD54E77A25FD8424008246CB /* AppDelegate.swift */; };
+		AD54E77D25FD8424008246CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD54E77C25FD8424008246CB /* SceneDelegate.swift */; };
+		AD54E77F25FD8424008246CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD54E77E25FD8424008246CB /* ViewController.swift */; };
+		AD54E78225FD8424008246CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD54E78025FD8424008246CB /* Main.storyboard */; };
+		AD54E78425FD8425008246CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD54E78325FD8425008246CB /* Assets.xcassets */; };
+		AD54E78725FD8425008246CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD54E78525FD8425008246CB /* LaunchScreen.storyboard */; };
+		AD54E79125FD87A1008246CB /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD54E79025FD87A1008246CB /* UIImageView.swift */; };
+		AD54E79325FD9004008246CB /* kullanicProfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD54E79225FD9004008246CB /* kullanicProfilViewController.swift */; };
+		AD54E79725FD9754008246CB /* anaEkranViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD54E79625FD9754008246CB /* anaEkranViewController.swift */; };
+		AD5559EE2611DCC8004395EB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5559ED2611DCC8004395EB /* CoreData.framework */; };
+		AD5729032611C82A000C2295 /* favorilerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5729022611C82A000C2295 /* favorilerViewController.swift */; };
+		AD5729052611C857000C2295 /* favoriCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5729042611C857000C2295 /* favoriCell.swift */; };
+		AD5729072611CC4C000C2295 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5729062611CC4C000C2295 /* Social.framework */; };
+		AD57A9B8261FCF25000EB1ED /* tumunuGuncelleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD57A9B7261FCF25000EB1ED /* tumunuGuncelleViewController.swift */; };
+		AD5824B72604A25600A183E8 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5824B62604A25600A183E8 /* FeedCell.swift */; };
+		AD5824B92604A53500A183E8 /* KesfetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5824B82604A53500A183E8 /* KesfetViewController.swift */; };
+		AD5860BD261439F0001067A8 /* tumFavoriCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5860BC261439F0001067A8 /* tumFavoriCell.swift */; };
+		AD58D8F1260C5E8C00DDFD16 /* kayitOlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD58D8F0260C5E8C00DDFD16 /* kayitOlViewController.swift */; };
+		AD5AC74B26168437007D6737 /* tarifCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5AC74A26168437007D6737 /* tarifCell.swift */; };
+		AD61D74D260852600059EA98 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD61D74C260852600059EA98 /* GoogleService-Info.plist */; };
+		AD815F9E260EF30A008980AA /* TarifDetayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD815F9D260EF30A008980AA /* TarifDetayViewController.swift */; };
+		AD815FA8260F1C21008980AA /* DetayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD815FA7260F1C20008980AA /* DetayCell.swift */; };
+		ADD95922267F21A500EE9A23 /* YukleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD95921267F21A500EE9A23 /* YukleViewController.swift */; };
+		ADD95924267F21BD00EE9A23 /* tumFavorilerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD95923267F21BD00EE9A23 /* tumFavorilerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08797273891E3112E86FE1AB /* Pods-projeTarifim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-projeTarifim.debug.xcconfig"; path = "Target Support Files/Pods-projeTarifim/Pods-projeTarifim.debug.xcconfig"; sourceTree = "<group>"; };
+		65AFF766A3C8A83B7B03BF6A /* Pods_projeTarifim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_projeTarifim.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5309A62615B20500FFB789 /* kullaniciAyarlariViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kullaniciAyarlariViewController.swift; sourceTree = "<group>"; };
+		AD54DEDD2681970A00F4369D /* girisEkraniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = girisEkraniViewController.swift; sourceTree = "<group>"; };
+		AD54E77725FD8423008246CB /* projeTarifim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = projeTarifim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD54E77A25FD8424008246CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD54E77C25FD8424008246CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AD54E77E25FD8424008246CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD54E78125FD8424008246CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD54E78325FD8425008246CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD54E78625FD8425008246CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD54E78825FD8425008246CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD54E79025FD87A1008246CB /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		AD54E79225FD9004008246CB /* kullanicProfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kullanicProfilViewController.swift; sourceTree = "<group>"; };
+		AD54E79625FD9754008246CB /* anaEkranViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anaEkranViewController.swift; sourceTree = "<group>"; };
+		AD5559ED2611DCC8004395EB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AD5729022611C82A000C2295 /* favorilerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favorilerViewController.swift; sourceTree = "<group>"; };
+		AD5729042611C857000C2295 /* favoriCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favoriCell.swift; sourceTree = "<group>"; };
+		AD5729062611CC4C000C2295 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		AD57A9B7261FCF25000EB1ED /* tumunuGuncelleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tumunuGuncelleViewController.swift; sourceTree = "<group>"; };
+		AD5824B62604A25600A183E8 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		AD5824B82604A53500A183E8 /* KesfetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KesfetViewController.swift; sourceTree = "<group>"; };
+		AD5860BC261439F0001067A8 /* tumFavoriCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tumFavoriCell.swift; sourceTree = "<group>"; };
+		AD58D8F0260C5E8C00DDFD16 /* kayitOlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kayitOlViewController.swift; sourceTree = "<group>"; };
+		AD5AC74A26168437007D6737 /* tarifCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tarifCell.swift; sourceTree = "<group>"; };
+		AD61D74C260852600059EA98 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AD815F9D260EF30A008980AA /* TarifDetayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarifDetayViewController.swift; sourceTree = "<group>"; };
+		AD815FA7260F1C20008980AA /* DetayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayCell.swift; sourceTree = "<group>"; };
+		ADD95921267F21A500EE9A23 /* YukleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YukleViewController.swift; sourceTree = "<group>"; };
+		ADD95923267F21BD00EE9A23 /* tumFavorilerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tumFavorilerViewController.swift; sourceTree = "<group>"; };
+		B4519277B98341DF6E22A357 /* Pods-projeTarifim.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-projeTarifim.release.xcconfig"; path = "Target Support Files/Pods-projeTarifim/Pods-projeTarifim.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD54E77425FD8423008246CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546910A682699B37305F8276 /* Pods_projeTarifim.framework in Frameworks */,
+				AD5559EE2611DCC8004395EB /* CoreData.framework in Frameworks */,
+				AD5729072611CC4C000C2295 /* Social.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EE2148704CA876EAE25266C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08797273891E3112E86FE1AB /* Pods-projeTarifim.debug.xcconfig */,
+				B4519277B98341DF6E22A357 /* Pods-projeTarifim.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5FB48F8AF0B9239DA838C2AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD5559ED2611DCC8004395EB /* CoreData.framework */,
+				AD5729062611CC4C000C2295 /* Social.framework */,
+				65AFF766A3C8A83B7B03BF6A /* Pods_projeTarifim.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD54E76E25FD8423008246CB = {
+			isa = PBXGroup;
+			children = (
+				AD54E77925FD8423008246CB /* projeTarifim */,
+				AD54E77825FD8423008246CB /* Products */,
+				2EE2148704CA876EAE25266C /* Pods */,
+				5FB48F8AF0B9239DA838C2AE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD54E77825FD8423008246CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD54E77725FD8423008246CB /* projeTarifim.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD54E77925FD8423008246CB /* projeTarifim */ = {
+			isa = PBXGroup;
+			children = (
+				ADD95923267F21BD00EE9A23 /* tumFavorilerViewController.swift */,
+				ADD95921267F21A500EE9A23 /* YukleViewController.swift */,
+				AD61D74C260852600059EA98 /* GoogleService-Info.plist */,
+				AD54E77A25FD8424008246CB /* AppDelegate.swift */,
+				AD54E77C25FD8424008246CB /* SceneDelegate.swift */,
+				AD54E77E25FD8424008246CB /* ViewController.swift */,
+				AD54E78025FD8424008246CB /* Main.storyboard */,
+				AD54E78325FD8425008246CB /* Assets.xcassets */,
+				AD54E78525FD8425008246CB /* LaunchScreen.storyboard */,
+				AD54E78825FD8425008246CB /* Info.plist */,
+				AD54E79025FD87A1008246CB /* UIImageView.swift */,
+				AD54E79225FD9004008246CB /* kullanicProfilViewController.swift */,
+				AD54E79625FD9754008246CB /* anaEkranViewController.swift */,
+				AD5824B62604A25600A183E8 /* FeedCell.swift */,
+				AD5824B82604A53500A183E8 /* KesfetViewController.swift */,
+				AD58D8F0260C5E8C00DDFD16 /* kayitOlViewController.swift */,
+				AD815F9D260EF30A008980AA /* TarifDetayViewController.swift */,
+				AD815FA7260F1C20008980AA /* DetayCell.swift */,
+				AD5729022611C82A000C2295 /* favorilerViewController.swift */,
+				AD5729042611C857000C2295 /* favoriCell.swift */,
+				AD5860BC261439F0001067A8 /* tumFavoriCell.swift */,
+				AD5309A62615B20500FFB789 /* kullaniciAyarlariViewController.swift */,
+				AD5AC74A26168437007D6737 /* tarifCell.swift */,
+				AD57A9B7261FCF25000EB1ED /* tumunuGuncelleViewController.swift */,
+				AD54DEDD2681970A00F4369D /* girisEkraniViewController.swift */,
+			);
+			path = projeTarifim;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD54E77625FD8423008246CB /* projeTarifim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD54E78B25FD8425008246CB /* Build configuration list for PBXNativeTarget "projeTarifim" */;
+			buildPhases = (
+				5E5A32422524B6BB4A27034A /* [CP] Check Pods Manifest.lock */,
+				AD54E77325FD8423008246CB /* Sources */,
+				AD54E77425FD8423008246CB /* Frameworks */,
+				AD54E77525FD8423008246CB /* Resources */,
+				FA29D1A3D557E2D67C9D605F /* [CP] Embed Pods Frameworks */,
+				107BB4FE3C1CB7BA90ACA3A7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = projeTarifim;
+			productName = projeTarifim;
+			productReference = AD54E77725FD8423008246CB /* projeTarifim.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD54E76F25FD8423008246CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = Aleyna;
+				TargetAttributes = {
+					AD54E77625FD8423008246CB = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = AD54E77225FD8423008246CB /* Build configuration list for PBXProject "projeTarifim" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD54E76E25FD8423008246CB;
+			productRefGroup = AD54E77825FD8423008246CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD54E77625FD8423008246CB /* projeTarifim */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD54E77525FD8423008246CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD54E78725FD8425008246CB /* LaunchScreen.storyboard in Resources */,
+				AD61D74D260852600059EA98 /* GoogleService-Info.plist in Resources */,
+				AD54E78425FD8425008246CB /* Assets.xcassets in Resources */,
+				AD54E78225FD8424008246CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		107BB4FE3C1CB7BA90ACA3A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-projeTarifim/Pods-projeTarifim-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-projeTarifim/Pods-projeTarifim-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-projeTarifim/Pods-projeTarifim-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E5A32422524B6BB4A27034A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-projeTarifim-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA29D1A3D557E2D67C9D605F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-projeTarifim/Pods-projeTarifim-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-projeTarifim/Pods-projeTarifim-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-projeTarifim/Pods-projeTarifim-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD54E77325FD8423008246CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5729052611C857000C2295 /* favoriCell.swift in Sources */,
+				AD54E79125FD87A1008246CB /* UIImageView.swift in Sources */,
+				AD815FA8260F1C21008980AA /* DetayCell.swift in Sources */,
+				ADD95922267F21A500EE9A23 /* YukleViewController.swift in Sources */,
+				AD54E77F25FD8424008246CB /* ViewController.swift in Sources */,
+				AD58D8F1260C5E8C00DDFD16 /* kayitOlViewController.swift in Sources */,
+				AD54E77B25FD8424008246CB /* AppDelegate.swift in Sources */,
+				AD5824B92604A53500A183E8 /* KesfetViewController.swift in Sources */,
+				AD54E79325FD9004008246CB /* kullanicProfilViewController.swift in Sources */,
+				AD57A9B8261FCF25000EB1ED /* tumunuGuncelleViewController.swift in Sources */,
+				AD54E79725FD9754008246CB /* anaEkranViewController.swift in Sources */,
+				AD5860BD261439F0001067A8 /* tumFavoriCell.swift in Sources */,
+				AD5309A72615B20500FFB789 /* kullaniciAyarlariViewController.swift in Sources */,
+				AD5729032611C82A000C2295 /* favorilerViewController.swift in Sources */,
+				AD54E77D25FD8424008246CB /* SceneDelegate.swift in Sources */,
+				AD5824B72604A25600A183E8 /* FeedCell.swift in Sources */,
+				AD815F9E260EF30A008980AA /* TarifDetayViewController.swift in Sources */,
+				AD54DEDE2681970A00F4369D /* girisEkraniViewController.swift in Sources */,
+				AD5AC74B26168437007D6737 /* tarifCell.swift in Sources */,
+				ADD95924267F21BD00EE9A23 /* tumFavorilerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD54E78025FD8424008246CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD54E78125FD8424008246CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD54E78525FD8425008246CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD54E78625FD8425008246CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD54E78925FD8425008246CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD54E78A25FD8425008246CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD54E78C25FD8425008246CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08797273891E3112E86FE1AB /* Pods-projeTarifim.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = projeTarifim/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.proje.projeTarifim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD54E78D25FD8425008246CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4519277B98341DF6E22A357 /* Pods-projeTarifim.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = projeTarifim/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.proje.projeTarifim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD54E77225FD8423008246CB /* Build configuration list for PBXProject "projeTarifim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD54E78925FD8425008246CB /* Debug */,
+				AD54E78A25FD8425008246CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD54E78B25FD8425008246CB /* Build configuration list for PBXNativeTarget "projeTarifim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD54E78C25FD8425008246CB /* Debug */,
+				AD54E78D25FD8425008246CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD54E76F25FD8423008246CB /* Project object */;
+}
